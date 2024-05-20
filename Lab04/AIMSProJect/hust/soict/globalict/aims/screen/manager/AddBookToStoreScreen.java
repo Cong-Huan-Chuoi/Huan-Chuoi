@@ -91,7 +91,8 @@ public class AddBookToStoreScreen extends AddItemToStoreScreen {
         @Override
         public void actionPerformed(ActionEvent e) {
             //check button
-            System.out.println("you press button");
+            // System.out.println("you press button");
+            
            String buttonString = e.getActionCommand();
            if (buttonString.equals("Confirm")){
             if (tfId.getText().equals("") || tfTitle.getText().equals("") || tfCategory.getText().equals("") ||
